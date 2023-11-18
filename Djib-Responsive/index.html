@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Djibouti Plongée</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenair">
+        <video src="video/plongée-djibouti.mp4" autoplay muted loop plays-iline  class="video"></video>
+        <nav>
+            <img src="image/djib3.png" class="logo">
+            <ul>
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Villes</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="acceuil">
+            <h1>Djibouti : <span class="animation"></span></h1>
+            <a href="#">Visite</a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+         var typed = new Typed('.animation', {
+      strings: ['Tadjourah', 'Arta', 'Obock','Ali-Sabieh','Dikhil'],
+      typedSpeed : 50,
+      backSpeed: 50,
+      loop:true
+    });
+    </script>
+</body>
+</html>
