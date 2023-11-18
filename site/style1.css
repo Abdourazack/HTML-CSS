@@ -1,0 +1,121 @@
+.grid,
+.blocpage .grid,
+.package .grid,
+.grid,
+.blocpage .grid,
+.package .grid,
+.package-section .grid,
+.container .grid,
+.package-row .grid,
+.packaga-box .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.blocpage {
+    height: auto;
+}
+
+nav {
+    width: auto;
+    text-align: center;
+}
+
+nav ul {
+    flex-direction: column;
+    overflow: hidden;
+}
+
+nav li {
+    padding-left: 4px;
+
+}
+
+nav a {
+    font-size: 15px;
+}
+
+.package-section,
+.package-box,
+.package-row {
+    flex-direction: row;
+}
+
+
+.blocpage-form .card {
+    justify-self: center;
+    align-items: center;
+
+}
+
+
+footer {
+
+
+    border-top: 2px solid #000;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+    color: #333333;
+    background-color: #444;
+    box-shadow: inset 0px 5px 5px 0px #222;
+
+}
+
+
+.footer-content p {
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: 100;
+    font-family: Georgia;
+    font-size: 11px;
+
+}
+
+.nav-footer ul {
+    padding: 10px 15px;
+    font-weight: 100;
+    font-family: Georgia;
+    font-size: 14px;
+
+
+}
+
+.nav-footer li {
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.nav-footer a {
+    color: #fff;
+}
+
+.nav-footer a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+.liste-reseau li {
+
+    font-weight: 100;
+    font-family: Georgia;
+    font-size: 14px;
+}
+
+.liste-reseau a {
+    color: #fff;
+}
+
+div h3 {
+    position: relative;
+    color: white;
+    padding: 10px 10px;
+    font-weight: 100;
+    font-family: Georgia;
+    font-size: 24px;
+}
+
+.package-row {
+    display: flex;
+    flex-direction: row;
+    margin: 0px -8px;
+}

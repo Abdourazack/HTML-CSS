@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangamania</title>
+  
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="background">
+
+    </div>
+        <!--NavBar-->
+        <header>
+             <div class="navbar">
+                 <div class="container flex">
+                     <h1 class="logo">Mangamania</h1>
+                     <nav>
+                         <ul>
+                             <li><a href="index.html">Home</a></li>
+                             <li><a href="genre.html">Genre</a></li>
+                             <li><a href="contact.html">Contact</a></li>
+                         </ul>
+                     </nav>
+                 </div>
+             </div>
+        </header>
+
+        <!--formulaire-->
+        <main class="background-form">
+            <div class=" blocpage-form card ">
+
+            
+                <form method="POST" action="./database.php">
+
+                    <div class="inputwithicons ">
+                        <p>
+                        <input type="text" name="Votre nom" placeholder=" Votre nom "  id="nom_prenom" required />
+                        <i class=" fa fa-user" aria-hidden="true"></i>
+                        
+
+
+                        <p>
+                    </div>
+
+                    <div class="inputwithicons ">
+                        <p>
+                            <input type="email" placeholder="utilisateur@domaine.com" id="email"  />
+                            <i class="fas fa-envelope"></i>
+                        </p>
+                    </div>
+
+                    <div class="inputwithicons">
+                        <p >       
+                        
+                            <select name="pays" id="pays" >
+                                <option value="selectionnez un pays" selected>Selectionnez votre pays de residence : </option>
+                                <option value="belgique" >Belgique</option>
+                                <option value="japon">Japon</option>
+                                <option value="angleterre">Angleterre</option>
+                                <option value="italie">Italie</option>
+                                <option value="bresil">Bresil</option>
+                                <option value="chine">Chine</option>
+                                <option value="france">France</option>
+                            </select>
+                            <i class="fas fa-flag"></i>
+                        
+                        </p>
+                    </div>
+
+                    <div class="inputwithicons ">
+                        <p>
+
+                            <input type="tel" placeholder="+324********" id="téléphone" required>
+                            <i class=" fas fa-phone-alt"></i>
+                        </p>
+                    </div>
+
+                    <div class="inputwithicons ">
+                        <p>
+
+                            <input type="date" id="date_de_naissance" required/>
+                            <i class="far fa-calendar-alt" ></i>
+
+                        </p>
+                    </div>
+                 
+                    <div class="inputwithicons">
+                    <div class="type_abonnement">
+                        <table>
+                            <tr>
+                                <td>
+                                    <label> Choisissez un type d' abonnement : </label>
+                                </td>
+                            </tr>
+                        </table>
+                            
+                                <input type="radio" name="Anuelle" required/> Anuelle<br />
+                                <input type="radio" name="Menseuel" /> Menseuel<br/>
+                                <input type="radio" name="Quotidien"  /> Quotidien<br />
+                    </div>
+
+                    </div>
+
+
+
+
+
+
+                    <div class="inputwithicons">
+                        <p>
+                            <input type="checkbox" required  />
+                            Je certifie avoir pris connaissance des conditions d'utilisation
+                        
+                        </p>
+                    </div>
+
+
+                    <div class="inputwithicons">
+                        <p>
+                            <input type="checkbox"  />
+                            Envoyez-moi les newsletters
+                        
+                        </p >
+                    </div>
+
+                    <div class="inputwithicons">
+                        <p>
+                            <a href="genre.html" class="button"><strong>Envoyer</strong></a>
+                            <a href="index.html" class="button"><strong>Annuler</strong></a>
+
+
+                        </p>
+                    </div>
+
+
+                </form>
+
+            </div>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div>
+                  <p>Copyright &copy; Adelovic@11</p>
+                </div>
+                
+                <div>
+                
+                    <ul class="liste-reseau">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-facebook-messenger"></i> Messenger</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fas fa-envelope-open-text"></i> Email</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+
+                    </ul>
+                </div>
+                <nav class="nav-footer">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="genre.html">Genre</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+</body>
+</html>
