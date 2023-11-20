@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: gray;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .Villetad{
+    align-items: center;
+    padding-top: 1050px;
+
+  
+}
+.Villetad h3{
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+.Villetad p{
+   text-align: center;
+   
+}
+.Villetad .tad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Villetad .arta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Villetad .imgtadjou{
+    width: 350px; 
+    padding-bottom: 30px; 
+}
+
+.Villetad .imgArta{
+    width: 350px;
+    padding-bottom: 25px;
+}
+
+.Villetad .g-Bara{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Villetad .ile{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.Villetad  .moucha{
+    width: 350px;
+    padding-bottom: 30px;
+}
+
+
+
+
