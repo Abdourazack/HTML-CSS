@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: gray;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.form fieldset{
+   padding: 80px 80px;
+   border-radius: 100% 0 0 100%;
+   border: 1px dashed black;
+}
