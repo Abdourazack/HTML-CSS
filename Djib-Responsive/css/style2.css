@@ -19,3 +19,19 @@ body{
    border-radius: 100% 0 0 100%;
    border: 1px dashed black;
 }
+.form .valider{
+    padding: 125px;
+}
+.form input[type="datetime-local"]{
+    padding-top: 0px;
+}
+.form input[type="submit"]{
+    margin-left: 150px;
+    padding: 5px;
+    border-radius: 100px 100px 100px 100px;
+}
+.form input[type="reset"]{
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 100px 100px 100px 100px;
+}
