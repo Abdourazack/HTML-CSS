@@ -6,12 +6,16 @@
     padding: 100px
 
 }
-
-body{
+body, html {
+    height: 100%;
+    margin: 0;
+    top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
     background-image: url(/imaga/gojo.jpg);
-    opacity: 0.8;
-    z-index: 1;
 }
+
 
 .contener .carre{
     background-color: white;

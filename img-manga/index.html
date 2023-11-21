@@ -12,36 +12,36 @@
             <h1>otaku land</h1>
         </div>
         <div class="carre">
-            <div class="c1">
+            <div class="c1" id="natsu">
                 <p>Natsu</p>
              
             </div>
             <div class="c2">
-                <div class="b2">
+                <div class="b2" id="sukuna">
                     <p>Sukuna</p>
                 </div>
             </div>
-            <div class="c3 ">
+            <div class="c3 " id="zenitsu">
                 <div class="b3">
                     <p>Zenitsu</p>
                 </div>
             </div>
-            <div class="c4">
+            <div class="c4" id="luffy">
                 <div class="b4">
                     <p>Luffy</p>
                 </div>
             </div>
-            <div class="c5">
+            <div class="c5" id="light">
                 <div class="b5">
                     <p>Light</p>
                 </div>
             </div>
-            <div class="c6">
+            <div class="c6" id="Kengan">
                 <div class="b6">
                     <p>Kengan</p>
                 </div>
             </div>
-            <div class="c7">
+            <div class="c7" id="ichigo">
                 <div class="b7">
                     <p>Ichigo</p>
                 </div>
@@ -53,16 +53,16 @@
         const audio_sukuna = new Audio("./son/sukuna.mp3");
         const audio_zenitsu = new Audio("./son/zenitsu.mp3");
         const audio_luffy = new Audio("./son/luffy.mp3");
-        const audio_light = new Audio("./son/light");
+        const audio_light = new Audio("./son/light.mp3");
         const audio_KenganAshura = new Audio("./son/KenganAshura.mp3");
         const audio_Bleach = new Audio("./son/Bleach.mp3");
-        const son_Fairy_Tail = document.getElementsByClassName("Fairy Tail");
-        const son_sukuna = document.getElementsByClassName("sukuna");
-        const son_zenitsu = document.getElementsByClassName("zenitsu");
-        const son_luffy = document.getElementsByClassName("luffy");
-        const son_light = document.getElementsByClassName("light");
-        const son_KenganAshura = document.getElementsByClassName("KenganAshura");
-        const son_Bleach = document.getElementsByClassName("Bleach");
+        const son_Fairy_Tail = document.getElementById("natsu");
+        const son_sukuna = document.getElementById("sukuna");
+        const son_zenitsu = document.getElementById("zenitsu");
+        const son_luffy = document.getElementById("luffy");
+        const son_light = document.getElementById("light");
+        const son_KenganAshura = document.getElementById("Kengan");
+        const son_Bleach = document.getElementById("ichigo");
 
         son_Fairy_Tail.addEventListener("click", () => {
             audio_Fairy_Tail.play();
