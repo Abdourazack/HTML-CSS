@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contener">
+        <div class="piano">
+            <h1>otaku land</h1>
+        </div>
+        <div class="carre">
+            <div class="c1">
+                <p>Natsu</p>
+             
+            </div>
+            <div class="c2">
+                <div class="b2">
+                    <p>Sukuna</p>
+                </div>
+            </div>
+            <div class="c3 ">
+                <div class="b3">
+                    <p>Zenitsu</p>
+                </div>
+            </div>
+            <div class="c4">
+                <div class="b4">
+                    <p>Luffy</p>
+                </div>
+            </div>
+            <div class="c5">
+                <div class="b5">
+                    <p>Light</p>
+                </div>
+            </div>
+            <div class="c6">
+                <div class="b6">
+                    <p>Kengan</p>
+                </div>
+            </div>
+            <div class="c7">
+                <div class="b7">
+                    <p>Ichigo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const audio_Fairy_Tail = new Audio("./son/Fairy Tail.mp3");
+        const audio_sukuna = new Audio("./son/sukuna.mp3");
+        const audio_zenitsu = new Audio("./son/zenitsu.mp3");
+        const audio_luffy = new Audio("./son/luffy.mp3");
+        const audio_light = new Audio("./son/light");
+        const audio_KenganAshura = new Audio("./son/KenganAshura.mp3");
+        const audio_Bleach = new Audio("./son/Bleach.mp3");
+        const son_Fairy_Tail = document.getElementsByClassName("Fairy Tail");
+        const son_sukuna = document.getElementsByClassName("sukuna");
+        const son_zenitsu = document.getElementsByClassName("zenitsu");
+        const son_luffy = document.getElementsByClassName("luffy");
+        const son_light = document.getElementsByClassName("light");
+        const son_KenganAshura = document.getElementsByClassName("KenganAshura");
+        const son_Bleach = document.getElementsByClassName("Bleach");
+
+        son_Fairy_Tail.addEventListener("click", () => {
+            audio_Fairy_Tail.play();
+        });
+        son_sukuna.addEventListener("click", () => {
+            audio_sukuna.play();
+        });
+        son_zenitsu.addEventListener("click", () => {
+            audio_zenitsu.play();
+        });
+        son_luffy.addEventListener("click", () => {
+            audio_luffy.play();
+        });
+        son_light.addEventListener("click", () => {
+            audio_light.play();
+        });
+        son_KenganAshura.addEventListener("click", () => {
+            audio_KenganAshura.play();
+        });
+        son_Bleach.addEventListener("click", () => {
+            audio_Bleach.play();
+        });
+    </script>
+  
+</body>
+</html>
