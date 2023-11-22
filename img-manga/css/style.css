@@ -10,7 +10,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-    background-image: url(/imaga/gojo.jpg);
+    background-image: url(../imaga/gojo.jpg);
 }
 
 body, html{
@@ -87,7 +87,7 @@ body, html{
 /*on Hover*/
 
 .contener .carre .c1:hover{
-    background-image: url(/imaga/natsu.jpg);
+    background-image: url(../imaga/natsu.jpg);
     background-size: 119px;
     background-position: cover;
     background-repeat: no-repeat;
@@ -95,37 +95,37 @@ body, html{
 }
 
 .contener .carre .c2:hover{
-    background-image: url(/imaga/sukuna.jpg);
+    background-image: url(../imaga/sukuna.jpg);
     background-size: 129px;
     background-position: cover;
     background-repeat: no-repeat;
 }
 .contener .carre .c3:hover{
-    background-image: url(/imaga/zenitsu.jpg);
+    background-image: url(../imaga/zenitsu.jpg);
     background-size: 159px;
     background-position: cover;
     background-repeat: no-repeat;
 }
 .contener .carre .c4:hover{
-    background-image: url(/imaga/luffy.jpg);
+    background-image: url(../imaga/luffy.jpg);
     background-size: 135px;
     background-position: cover;
     background-repeat: no-repeat;
 }
 .contener .carre .c5:hover{
-    background-image: url(/imaga/light1.jpg);
+    background-image: url(../imaga/light1.jpg);
     background-size: 139px;
     background-position: cover;
     background-repeat: no-repeat;
 }
 .contener .carre .c6:hover{
-    background-image: url(/imaga/ashura.jpg);
+    background-image: url(../imaga/ashura.jpg);
     background-size: 149px;
     background-position: cover;
     background-repeat: no-repeat;
 }
 .contener .carre .c7:hover{
-    background-image: url(/imaga/ichigo.jpg);
+    background-image: url(../imaga/ichigo.jpg);
     background-size: 122px;
     background-position: cover;
     background-repeat: no-repeat;
