@@ -65,26 +65,120 @@
         const son_Bleach = document.getElementById("ichigo");
 
         son_Fairy_Tail.addEventListener("click", () => {
-            audio_Fairy_Tail.play();
+            if (audio_Fairy_Tail.paused) {
+                audio_Fairy_Tail.volume = 0.3;
+                audio_Fairy_Tail.play();
+                control.textContent = 'Pause';
+            } else {
+                audio_Fairy_Tail.pause();
+                audio_Fairy_Tail.currentTime = 0;
+                control.textContent = 'Play';
+            }
         });
+            
+      
         son_sukuna.addEventListener("click", () => {
-            audio_sukuna.play();
+            if (audio_sukuna.paused) {
+                audio_sukuna.volume = 0.3;
+                audio_sukuna.play();
+                control.textContent = 'Pause';
+            } else {
+                audio_sukuna.pause();
+                audio_sukuna.currentTime = 0;
+                control.textContent = 'Play';
+            }
         });
         son_zenitsu.addEventListener("click", () => {
-            audio_zenitsu.play();
+            if (audio_zenitsu.paused) {
+                audio_zenitsu.volume = 0.3;
+                audio_zenitsu.play();
+                control.textContent = 'Pause';
+            } else {
+                audio_zenitsu.pause();
+                audio_zenitsu.currentTime = 0;
+                control.textContent = 'Play';
+            }
         });
         son_luffy.addEventListener("click", () => {
-            audio_luffy.play();
+            if (audio_luffy.paused) {
+                audio_luffy.volume = 0.3;
+                audio_luffy.play();
+                control.textContent = 'Pause';
+            } else {
+                audio_luffy.pause();
+                audio_luffy.currentTime = 0;
+                control.textContent = 'Play';
+            }
         });
         son_light.addEventListener("click", () => {
-            audio_light.play();
+            if (audio_light.paused) {
+                audio_light.volume = 0.3;
+                audio_light.play();
+                control.textContent = 'Pause';
+            } else {
+                audio_light.pause();
+                audio_light.currentTime = 0;
+                control.textContent = 'Play';
+            }
         });
         son_KenganAshura.addEventListener("click", () => {
-            audio_KenganAshura.play();
+            if (audio_KenganAshura.paused) {
+                audio_KenganAshura.volume = 0.3;
+                audio_KenganAshura.play();
+                control.textContent = 'Pause';
+            } else {
+                audio_KenganAshura.pause();
+                audio_KenganAshura.currentTime = 0;
+                control.textContent = 'Play';
+            }
         });
         son_Bleach.addEventListener("click", () => {
-            audio_Bleach.play();
+            if (audio_Bleach.paused) {
+                audio_Bleach.volume = 0.3;
+                audio_Bleach.play();
+                control.textContent = 'Pause';
+            } else {
+                audio_Bleach.pause();
+                audio_Bleach.currentTime = 0;
+                control.textContent = 'Play';
+            }
         });
+
+        function play(idPlayer, control) {
+
+var player = document.querySelector('#' + idPlayer);
+
+ 
+
+if (player.paused) {
+
+    player.play();
+
+    control.textContent = 'Pause';
+
+} else {
+
+    player.pause();
+
+    control.textContent = 'Play';
+
+}
+
+}
+
+
+
+function resume(idPlayer) {
+
+var player = document.querySelector('#' + idPlayer);
+
+ 
+
+player.currentTime = 0;
+
+player.pause();
+
+}
     </script>
 
     </body>
