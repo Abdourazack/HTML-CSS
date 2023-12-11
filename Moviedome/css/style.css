@@ -1,0 +1,50 @@
+
+*
+{
+    margin: 0;
+    top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html body{
+    background-color: burlywood;
+}
+
+
+header{
+    display: flex;
+    background-color: orangered;
+}
+
+/*logo*/
+
+.logo{
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+/*nav*/
+
+.menu{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-right: 55px;
+}
+
+.menu ul li{
+    justify-content: space-between;
+    margin: 20px;
+}

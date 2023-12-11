@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+    <header>
+        <h1>Mon site</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="tech.html">Tech</a></li>
+                <li><a href="science.html">Science</a></li>
+            </ul>
+        </nav>
+        <button id="open" href="#"><img src="image/menu.png"/></button>
+    </header>
+
+    <section>
+        <article>
+            <h2>Djibouti Telecom affirme couvrir 95 % de la population en 4G</h2>
+            <img src="image/Djibouti_Telecom_Logo.png" alt="Logo Djibouti Télécom"/>
+            <p>L'opérateur Bouygues Telecom annonce que son réseau permet désormais de couvrir 95 % de la population en très haut débit mobile, la 4G. Mais sur la couverture du territoire, il reste muet. Le taux de couverture de la population que donnent régulièrement les opérateurs de téléphonie mobile est-il un indicateur encore pertinent ? C’est une question qui se pose désormais, alors que les quatre principaux acteurs du marché des télécoms à Djibouti présentent des statistiques non seulement très élevées — la grande majorité de la population est donc couverte — mais en plus, similaires.</p>
+            <a href="https://www.djiboutitelecom.dj/">En savoir plus</a>
+        </article>
+
+        <aside>
+            <ul>
+                <li><a href="course-militaire.html">Comment une app de course à pied pourrait trahir l’emplacement de bases militaires secrètes</a></li>
+                <li><a href="space-x.html">SpaceX prévoit le premier décollage de la fusée Falcon Heavy pour le 6 février</a></li>
+                <li><a href="singe-chine.html">Deux singes clonés sont nés en Chine : une prouesse scientifique qui pose des questions éthiques</a></li>
+                <li><a href="facebook-ia.html">Facebook fait appel à un autre Français pour diriger ses travaux en intelligence artificielle</a></li>
+            </ul>
+        </aside>
+    </section>
+
+    <footer class="piedpage">
+        <h3>Nos Partenaires</h3>
+        <ul>
+            <li><a href="">Miriatech</a></li>
+            <li><a href="">EDD</a></li>
+            <li><a href="">MyFramework</a></li>
+            <li><a href="">LookWeb</a></li>
+        </ul>
+       
+        <address>
+            © Adel Abdourazack
+            <a href="adelhared3@gmail.com">Contactez-moi !</a>
+        </address>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+    </script>
+
+    <script>
+        jQuery(document).ready(function($){
+
+$("#open").click(function(){
+    $("header nav").addClass("open");
+});
+
+$("#close").click(function(){
+    $("header nav").removeClass("open");
+});
+});
+    </script>
+
+</body>
+</html>
