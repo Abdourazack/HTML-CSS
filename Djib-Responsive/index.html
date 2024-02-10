@@ -11,8 +11,11 @@
     
 </head>
 <body>
+    <div class="flow">
+
+    </div>
     <div class="contenair">
-        <video src="video/plongée-djibouti.mp4" autoplay muted loop plays-iline  class="video"></video>
+        <video src="video/plongée-djibouti.mp4" autoplay muted loop plays-iline  class="video" id="Dji"></video>
         <nav>
             <img src="image/djib3.png" class="logo">
             <ul>
@@ -35,6 +38,12 @@
       backSpeed: 50,
       loop:true
     });
+    </script>
+
+    <script>
+        const mp4=document.getElementById("Dji");
+        mp4.play();
+        mp4.volume=0.3;
     </script>
 </body>
 </html>

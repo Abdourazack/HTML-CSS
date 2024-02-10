@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>navbar</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo"> Cosmos</a>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="#">Acceuil</a></li>
+                    <li><a href="#">Acceuil</a></li>
+                    <li><a href="#">Acceuil</a></li>
+                    <li><a href="#">Acceuil</a></li>
+                </ul>
+            </div>
+            <img src="/img/btn-menu.png" alt="" class="burger-menu">
+        </nav>
+    </header>
+
+    <div class="contener">
+      
+            <form action="">
+                <h1>login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                <div class="remember-forgot">
+                    <label for=""><input type="checkbox">Se souvenir de moi</label>
+                    <a href="#">Mot de passe oublié?</a>
+                </div>
+    
+                <button type="submit" class="btn">Login</button>
+    
+                <div class="register-link">
+                    <p>Pas de compte? <a href="#">S'enregistrer</a></p>
+                </div>
+            </form>
+        </div>
+    
+       
+        
+    <script>
+        const menuburger = document.querySelector(".burger-menu")
+        const navlink = document.querySelector(".nav-link")
+
+        menuburger.addEventListener('click',() => {
+            navlink.classList.toggle('mobile-menu')
+        })
+    </script>
+
+<footer class="pied">
+<ul>
+    <li>Projet de Fin d'année Web</li>
+    <li>IEPSM Mouscron</li>
+    <li>Bachelier informatique 2023/2024</li>
+</ul>
+<address>
+    © Adel Abdourazack
+    <a href="adelhared3@gmail.com">Contactez-moi !</a>
+</address>
+</footer>
+</body>
+</html>
