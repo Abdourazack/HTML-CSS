@@ -66,16 +66,9 @@ body, html{
     right: 50px;
 }
 
-/***************************/
-/* Mise pages conterner form*/
-/***************************/
-
-
-aside{
-    position: absolute;
-    right :50px;
-    margin-right: 100px;
-}
+/********************************/
+/* Mise pages article page index*/
+/********************************/
 
 article{
     display: grid;
@@ -123,6 +116,10 @@ article .text{
 .text .btn-form:hover{
     color: orangered;
 }
+
+/***************************/
+/* Mise pages conterner form*/
+/***************************/
 
 .contener{
     display: grid;
