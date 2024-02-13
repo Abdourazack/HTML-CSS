@@ -89,14 +89,6 @@ article .text{
     text-align: center;
 }
 
-/*article .text{
-
-    position: absolute;
-    left: 50px;
-    padding-top: 300px;
-   
-}
-
 .text h1{
     color: orangered;
 }
@@ -104,7 +96,7 @@ article .text{
 .text p{
     color: #fff;
     padding-top: 100px;
-}*/
+}
 .contener{
     display: grid;
     justify-content: center;
