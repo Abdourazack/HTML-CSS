@@ -77,7 +77,19 @@ aside{
     margin-right: 100px;
 }
 
+article{
+    display: grid;
+    place-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #ffff;
+}
+
 article .text{
+    text-align: center;
+}
+
+/*article .text{
 
     position: absolute;
     left: 50px;
@@ -86,15 +98,13 @@ article .text{
 }
 
 .text h1{
-    position: absolute;
-    left: 50px;
     color: orangered;
 }
 
 .text p{
     color: #fff;
     padding-top: 100px;
-}
+}*/
 .contener{
     display: grid;
     justify-content: center;
