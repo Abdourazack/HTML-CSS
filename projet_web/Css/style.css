@@ -33,6 +33,12 @@ body, html{
 .navbar a{
     color: aliceblue;
     font-size: 20px;
+    padding-top: 10px;
+}
+
+.navbar a i{
+    font-size: 25px;
+    margin-left: 10px;
 }
 
 .navbar a:hover{
@@ -95,10 +101,14 @@ article .text{
 }
 
 .text p{
-    color: #fff;
+    color: orangered;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     padding-bottom: 30px;
+}
+
+.text p:hover{
+    color: greenyellow;
 }
 
 .text .btn-form{
@@ -134,7 +144,7 @@ article .text{
 .contener h1{
     text-align: center;
     font-size: 36px;
-
+    margin-top: 50pxpx;
 }
 
 .contener .input-box{
@@ -207,6 +217,7 @@ article .text{
     box-shadow: 0 0 10px black;
     font-size: 26px;
     font-weight: 600;
+    margin-top: 30px;
 }
 
 .contener .register-link{
